@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { SingleStat } from "./components/SingleStat";
 import earth from "./assets/planet-earth.svg";
 import jupiter from "./assets/planet-jupiter.svg";

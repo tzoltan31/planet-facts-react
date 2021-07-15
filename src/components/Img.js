@@ -8,7 +8,7 @@ export function Img({
   currentPlanetData,
   subMenuIndex,
 }) {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   if (subMenuIndex === 1) {
     return (
       <div className="xl:w-4/6 xl:flex-shrink-0 flex justify-center items-center pb-20 pt-16">
