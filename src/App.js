@@ -52,9 +52,9 @@ function App() {
     "surface geology",
   ];
 
-  const [planetIndex, setPlanetIndex] = useState(2);
+  const [planetIndex, setPlanetIndex] = useState(0);
   const [subMenuIndex, setSubMenuIndex] = useState(0);
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
   const data = require("./data.json");
   const currentPlanetData = data[planetIndex];
   const currentPlanetTextArr = [
