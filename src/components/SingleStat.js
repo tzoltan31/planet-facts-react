@@ -6,7 +6,7 @@ export function SingleStat({ title, value }) {
       <div className="xl:text-lg text-gray-500 text-xs uppercase tracking-widest">
         {title}
       </div>
-      <div className="xl:text-5xl md:mt-2 md:text-2xl text-white uppercase text-lg">
+      <div className="xl:text-4xl md:mt-2 md:text-2xl text-white uppercase text-lg">
         {value}
       </div>
     </div>

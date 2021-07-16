@@ -1,10 +1,10 @@
 import React from "react";
 import { ImArrowUpRight2 } from "react-icons/im";
 
-export function Description({ name, content, source, subMenuString }) {
+export function Description({ name, content, source }) {
   return (
     <div className="xl:w-full md:w-3/5 md:pr-9">
-      <h1 className="xl:text-8xl md:text-5xl md:text-left uppercase text-center font-medium text-4xl pb-6">
+      <h1 className="xl:text-6xl md:text-5xl md:text-left uppercase text-center font-medium text-4xl pb-6">
         {name}
       </h1>
       <p className="xl:h-40 xl:text-base md:px-0 md:text-left text-xs font-spartan leading-6 px-3 text-center">

@@ -15,8 +15,8 @@ export function Img({
         <img
           src={svgArr[planetIndex][currentPlanetName + `Internal`]}
           alt={currentPlanetName}
-          height={width * 0.32}
-          width={width * 0.32}
+          height={width * 0.26}
+          width={width * 0.26}
         />
       </div>
     );
@@ -27,8 +27,8 @@ export function Img({
         <img
           src={svgArr[planetIndex][currentPlanetName]}
           alt={currentPlanetData.name}
-          height={width * 0.32}
-          width={width * 0.32}
+          height={width * 0.26}
+          width={width * 0.26}
         />
         <img
           className="absolute bottom-9 z-10"
@@ -46,8 +46,8 @@ export function Img({
       <img
         src={svgArr[planetIndex][currentPlanetName]}
         alt={currentPlanetData.name}
-        height={width * 0.32}
-        width={width * 0.32}
+        height={width * 0.26}
+        width={width * 0.26}
       />
     </div>
   );

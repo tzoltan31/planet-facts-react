@@ -13,8 +13,8 @@ export function SubMenuDesktop({
           <div
             className={
               subMenuIndex === index
-                ? `xl:tracking-widest xl:text-base xl:pb-4 xl:pt-5 pb-2 pt-3 mb-3 border border-greydark cursor-pointer bg-${currentPlanetName}`
-                : `xl:tracking-widest xl:text-base xl:pb-4 xl:pt-5 pb-2 pt-3 mb-3 border border-greydark hover:bg-greydark cursor-pointer`
+                ? `xl:tracking-widest xl:text-base xl:pb-3 xl:pt-4 pb-2 pt-3 mb-3 border border-greydark cursor-pointer bg-${currentPlanetName}`
+                : `xl:tracking-widest xl:text-base xl:pb-3 xl:pt-4 pb-2 pt-3 mb-3 border border-greydark hover:bg-greydark cursor-pointer`
             }
             onClick={() => setSubMenuIndex(index)}
             key={index}
