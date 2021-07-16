@@ -8,7 +8,7 @@ export function SubMenu({
   setSubMenuIndex,
 }) {
   return (
-    <div className="md:flex-grow md:flex md:justify-center md:items-center ">
+    <li className="md:flex-grow md:flex md:justify-center md:items-center ">
       <div
         className={`md:border-0 md:flex-grow ${
           subMenuIndex === index
@@ -21,6 +21,6 @@ export function SubMenu({
       >
         {title}
       </div>
-    </div>
+    </li>
   );
 }

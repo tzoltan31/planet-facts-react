@@ -10,12 +10,12 @@ export const Stats = ({ currentPlanetData }) => {
     currentPlanetData.temperature,
   ];
   return (
-    <div className="xl:px-6 xl:pt-0 md:pt-10 md:flex-row md:justify-between flex flex-col ">
+    <section className="xl:px-6 xl:pt-0 md:pt-10 md:flex-row md:justify-between flex flex-col ">
       {values.map((item, i) => {
         return (
           <SingleStat key={i} title={titles[i]} value={values[i]}></SingleStat>
         );
       })}
-    </div>
+    </section>
   );
 };
